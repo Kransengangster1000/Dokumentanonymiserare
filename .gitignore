@@ -1,0 +1,23 @@
+# Känsliga nyckelfiler (ladda ALDRIG upp egna nyckellistor)
+nyckel.json
+**/nyckel.json
+*nyckel*.json
+
+# PyInstaller-artefakter (.exe distribueras via GitHub Releases)
+build/
+dist/
+*.exe
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Temporära och genererade mappar
+ut_anonymiserat/
+*.log
+.DS_Store
+Thumbs.db
